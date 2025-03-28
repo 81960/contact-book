@@ -6,7 +6,7 @@
     <router-link to="/add">Add Contact</router-link>
     <router-link to="/contacts">Contact List</router-link>
   </nav>
-  <router-view />  <!-- This renders the page based on the route -->
+  <router-view />  
 </template>
 
 <style scoped>
