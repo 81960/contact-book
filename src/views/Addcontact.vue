@@ -4,7 +4,7 @@ import { useRouter } from "vue-router";
 
 const router = useRouter();
 
-const addContact = (contact: any) => {
+const addContact = (contact: any) => { 
   const contacts = JSON.parse(localStorage.getItem("contacts") || "[]");
   contacts.push(contact);
   localStorage.setItem("contacts", JSON.stringify(contacts));

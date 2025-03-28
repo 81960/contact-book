@@ -9,7 +9,7 @@ interface Contact {
   email: string;
   phoneno: string;
   address: string;
-}
+} 
 
 const route = useRoute();
 const router = useRouter();

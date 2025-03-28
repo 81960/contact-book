@@ -10,7 +10,7 @@ interface Contact {
   address: string;
 }
 
-// Props & Emit events
+
 const props = defineProps<{ contact?: Contact }>();
 const emit = defineEmits(["submit"]);
 

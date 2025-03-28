@@ -18,7 +18,7 @@ const goToDetails = () => {
 };
 </script>
 
-<template>
+<template> 
   <li @click="goToDetails">
     {{ contact.firstName }} {{ contact.lastName }} - {{ contact.email }}-{{contact.phoneno  }}
   </li>

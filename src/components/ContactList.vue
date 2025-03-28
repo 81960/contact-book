@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, computed, defineProps, onMounted } from "vue";
 import { useRouter } from "vue-router";
-
+ 
 interface Contact {
   id: number;
   firstName: string;

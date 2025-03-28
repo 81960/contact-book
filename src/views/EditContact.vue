@@ -6,7 +6,7 @@ import { useRoute, useRouter } from "vue-router";
 const route = useRoute();
 const router = useRouter();
 const contact = ref<any>(null);
-
+ 
 onMounted(() => {
   const contacts = JSON.parse(localStorage.getItem("contacts") || "[]");
   contact.value = contacts.find((c: any) => c.id === Number(route.params.id));

@@ -7,7 +7,7 @@
     <router-link to="/contacts">Contact List</router-link>
   </nav>
   <router-view />  
-</template>
+</template> 
 
 <style scoped>
 nav {

@@ -10,7 +10,7 @@ const goToAdd = () => {
   router.push("/add");
 };
 </script>
-
+ 
 <template>
   <div>
     <header>
