@@ -23,9 +23,9 @@ import { createRouter, createWebHistory } from "vue-router";
 
 // Correct imports — ensure file names and casing match exactly
 import HomeView from "@/views/Home.vue";
-import ContactListView from "@/views/ListView.vue";
-import AddContact from "@/views/AddContact.vue";
-import ContactDetails from "@/views/ContactDetails.vue";
+import ContactListView from "@/views/listview.vue";
+import AddContact from "@/views/Addcontact.vue";
+import ContactDetails from "@/views/Contactdetails.vue";
 import EditContact from "@/views/EditContact.vue";
 
 const routes = [
