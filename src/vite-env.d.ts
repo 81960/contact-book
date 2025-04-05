@@ -1,1 +1,1 @@
-npm install --save-dev @types/node
+/// <reference types="vite/client" />
